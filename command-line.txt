@@ -1,0 +1,8 @@
+--- membuat project react dengan npx
+-> npx create-react-app <nama-project>
+-> npm start
+
+--- membuat project react dengan npm
+-> npm install -g create-react-app
+-> create-react-app <nama-project>
+-> npm start
