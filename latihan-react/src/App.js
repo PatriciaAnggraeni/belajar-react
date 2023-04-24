@@ -5,18 +5,22 @@ import './App.css';
 import { Intro } from './components/Intro';
 import Welcome from './components/Welcome';
 import User from './components/User';
+import Counter from './components/Counter';
 
 function App() {
     return (
         <div className="App">
+
             {/* panggil fungsi Intro di sini, tag berupa nama fungsi */}
-            <Intro/>
+            {/* <Intro/> */}
 
             {/* panggil fungsi Welcome di sini, tag berupa nama fungsi */}
-            <Welcome/>
+            {/* <Welcome/> */}
 
             {/* panggil fungsi User di sini, tag berupa nama fungsi */}
-            <User id={"id-user"} class={"user-name"} name={"Angga"}/>
+            {/* <User id={"id-user"} class={"user-name"} name={"Angga"}/> */}
+
+            <Counter />
 
         </div>
     );

@@ -13,5 +13,5 @@ class User extends Component {
     }
 }
 
-// eksport fungsi agarbisa diimport di app.js
+// eksport fungsi agar bisa diimport di app.js
 export default User;
